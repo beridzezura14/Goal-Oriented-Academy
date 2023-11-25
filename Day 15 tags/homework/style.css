@@ -1,0 +1,16 @@
+
+
+body{
+    margin: 4rem;
+    background-color: rgb(242, 242, 242);
+}
+img{
+    width: 300px;
+}
+p{
+    font-size: 17px;
+}
+a{
+    margin-left: 15px;
+    color: blue;
+}
