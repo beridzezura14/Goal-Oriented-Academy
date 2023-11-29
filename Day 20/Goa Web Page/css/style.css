@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-color:  black;
+    color:antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.img {
+    padding-top: 25px;
+    width: 150px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    max-width: 1050px;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.navbar {
+    overflow: hidden;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    color: greenyellow;
+    transition: 0.5s;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color:aliceblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    background-color: #303030;
+    width: 200px;
+    transition: 0.5s;
+}
+.navbar a:last-child {
+    padding-right: 0;
+
+}
+  
+.dropdown-content a:hover {
+    background-color: #303030;
+    width: 200px;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+ol li{
+    color: antiquewhite;
+}
+
+.baner {
+    max-width: 1050px;
+    margin: auto;
+    padding-top: 20px;
+  }
+.baner img{
+    width: 100%;
+}
+
+.video{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1050px;
+    margin: auto;
+    padding: 4rem 0;
+}
+.show{
+    /* border-radius: 20px; */
+    width: 500px;
+    border: 3px solid rgb(116, 179, 22);
+    border-radius: 15px;
+}
+.text h1{
+    margin-bottom: 2rem;
+    font-size: 30px; 
+    color: greenyellow;
+}
+.text p{
+    line-height: 25px;
+    font-size: 17px;
+    width: 490px;
+    margin-bottom: 40px;
+}
+.fb{
+    color: black;
+    padding: 10px 20px 13px 20px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* ------------  offer ------------------ */
+
+.offer{
+    max-width: 1050px;
+    margin: auto;
+    padding: 4rem 0;
+}
+.offer h3{
+  margin-top: 50px;  
+}
+.language-row-1{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.language-row-2{
+    margin-top: 3rem;
+}
+
+.graphic-row{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.graphic-row div:first-child{
+  margin-right: 55px;
+}
+
+.language-row-1 div h4, .graphic-row div h4{
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+.second-baner{
+  max-width: 1050px;
+  margin: auto;
+  padding-bottom: 4rem;
+}
+.second-baner img{
+  max-width: 100%;
+}
+
+
+.line{
+  max-width: 1050px;
+  margin: auto;
+  height: 3px;
+  background-color: greenyellow;
+}
+.active{
+  padding: 3rem 0;
+  max-width: 1050px;
+  margin: auto;
+}
+.picture{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+#more {
+  display: none;
+}
+.active h1{
+  color: greenyellow;
+}
+.active p{
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.read{
+  padding: 5px 15px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  color: #303030;
+  cursor: pointer;
+}
+.picture img{
+  width: 200px;  
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid greenyellow;
+}
+
+
+.skills{
+  padding: 4rem 0;
+}
+.skills h1{
+  color: greenyellow;
+  text-align: center;
+}
+.all-skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.all-skills ul{
+  font-size: 20px;
+  margin-top: 30px;
+}
+.all-skills ul:first-child{
+  margin-right: 50px;
+}
+.all-skills ul li{
+  padding: 5px 0;
+}
+
+
+
+
+.last-line{
+  width: 100% !important;
+  height: 3px;
+  background-color: greenyellow;
+}
+
+
+footer{
+  padding: 3rem 0 1rem 0;
+}
+.contact-row{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1050px;
+  margin: auto;
+  
+}
+.contact-row h6{
+  font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
+  color: greenyellow;
+}
+.social{
+  margin-top: 2rem;
+}
+.footer-line{
+  width: 400px;
+  height: 2px;
+  margin-top: 2rem;
+  background-color: aliceblue;
+}
+.social ion-icon{
+  font-size: 20px;
+  color: aliceblue;
+  padding-right: 15px;
+}
+
+
+.mini-menu{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  list-style-type: square;
+}
+.container{
+  max-width: 500px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 15px;
+  color: greenyellow;
+}
+.footer-link{
+  margin-bottom: 10px;
+  color: aliceblue;
+  transition: 0.5s;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.footer-link:hover{
+  transition: 0.5s;
+  color: greenyellow ;
+}
+
+input[type=text], select, textarea, input[type=email], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical; 
+  background-color: rgb(27, 27, 27);
+}
+
+input[type=submit] {
+  background-color: greenyellow;  
+  color: black;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Gill Sans", sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: greenyellow;
+}
+
+.zura{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: gray;
+}
