@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(41, 41, 41);
+    background-color: beige;
+}
+.cv, .exercise{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.cv h1, .cv h4{
+    text-align: center;
+}
+.cv h1{
+    font-size: 35px;
+}
+.cv h4{
+    margin-top: 2rem;
+}
+.cv-img{
+    padding: 2rem 0;
+    max-width: 256px;
+    margin: auto;
+}
+.cv h2{
+    margin: 1rem 0;
+}
+
+.exercise{
+    padding-bottom: 2rem;
+}
+.exercise h2{
+    padding: 1rem 0;
+}
+
+.exercise div ol{
+    margin-left: 20px;
+}
+.end{
+    margin-bottom: 1rem;
+}
+.end ul{
+    margin-top: 10px;
+    margin-left: 15px;
+}
