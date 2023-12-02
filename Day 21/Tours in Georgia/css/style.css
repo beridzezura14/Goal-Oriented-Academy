@@ -1,0 +1,401 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+body{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav{
+    max-width: 1180px;
+    margin: auto;
+}
+
+.nav-1-row{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    font-size: 35px;
+    color: rgb(46, 46, 46);
+}
+.logo a span{
+    padding: 7px 22px;
+    border-radius: 10%;
+    background-color: orange;
+    color: white;
+    margin-right: 2px;
+}
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+
+    border-top: 1px solid orange;
+    border-left: 1px solid orange;
+    border-bottom: 1px solid orange;
+    border-right: none;
+
+  }
+.search-container button {
+    border-top: 1px solid orange;
+    border-right: 1px solid orange;
+    border-bottom: 1px solid orange;
+    border-left: none;
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    background: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+.navbar{
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+.items a{
+    margin-right: 20px;
+    font-size: 17px;
+    color: rgb(39, 39, 39);
+    transition: 0.5s;
+}
+.items a:last-child{
+    margin-right: 0px;
+}
+.items a:hover{
+    color: orange;
+    transition: 0.5s;
+}
+.icon ion-icon{
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgb(39, 39, 39);
+}
+.fb:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.in:hover{
+    color: rgb(157, 31, 31);
+    transition: 0.5s;
+}
+.tw:hover{
+    color: skyblue;
+    transition: 0.5s;
+}
+.yt:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.hero{
+    max-width: 1180px;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 80px;
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hero h1 span{
+    color: rgb(39, 39, 39);
+}
+.in-georgia{
+    font-size: 18px;
+}
+.hero p{
+    color: rgb(39, 39, 39);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2rem;
+    width: 490px;
+    margin-bottom: 3rem;
+}
+.button{
+    padding: 10px 45px;
+    background-color: orange;
+    color: white; 
+    border: 2px solid orange;
+}
+.button:hover{
+    border: 2px solid orange;
+    background-color: aliceblue;
+    color: rgb(39, 39, 39);
+    transition: 0.5s;
+}
+
+
+/* ----------------------------------------------- places section  ----------------------------------------------------------- */
+
+
+.place{
+    padding: 5rem 0;
+    max-width: 1180px;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.places{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgb(244, 241, 241);
+    padding: 40px 20px;
+    border-radius: 10px; 
+}
+.places a{
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: rgb(39, 39, 39);
+    transition: 0.5s;
+}
+.places a:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+.aside-photo{
+    width: 300px;
+    margin: 10px 0;
+    border-radius: 15px;
+}
+.describe{
+    display: flex;
+    flex-direction: column;
+}
+.describe-item{
+    margin-bottom: 15px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    border-right: 7px solid orange;
+}
+
+
+.img{
+    width: 250px;
+    border-radius: 10px;
+}
+.city-text{
+    padding: 15px;
+}
+.city-text h1{
+    font-size: 30px;
+    color: rgb(39, 39, 39);
+}
+.about-place{
+    margin: 10px 0;
+    padding: 0 15px 20px 0;
+    color: rgb(39, 39, 39);
+}
+.city-more{
+    padding: 3px 20px;
+    background-color: orange;
+    border: 2px solid orange;
+    color: azure;
+}
+.city-more:hover{
+    border: 2px solid orange;
+    background-color: aliceblue;
+    color: rgb(39, 39, 39);
+    transition: 0.5s;
+}
+
+.more{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.more a{
+    padding: 8px 20px;
+    background-color: rgb(194, 188, 188);
+    margin-left: 10px;
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+/* ----------------------------------------------- explore section  ----------------------------------------------------------- */
+
+.background{
+    margin-bottom: 3rem;
+    background: linear-gradient(rgba(20, 37, 56, 0.73), rgba(0, 0, 0, 0.73)), url(../image/patrick-schneider-8bPJ0vagphw-unsplash.jpg) center no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-size: 100px;
+    color: orange;
+}
+.explore span{
+    color: white;
+    padding-left: 20px;
+}
+.pre-head{
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: -130px;
+    margin-left: 450px;
+}
+
+/* ----------------------------------------------- food and wine section  ----------------------------------------------------------- */
+.food{
+    max-width: 1180px;
+    margin: auto    
+}
+
+.food h1{
+    font-size: 55px;
+    color: orange;
+    margin-bottom: 50px;
+}
+.food h1 span{
+    color: rgb(39, 39, 39);
+}
+
+.food-row{
+    display: flex;
+    justify-content: space-between;
+
+}
+.food-image{
+    width: 350px;
+}
+
+.food-row div h3{
+    padding: 10px 0;
+    color: rgb(39, 39, 39);
+    font-size: 22px;
+}
+.food-row div p{
+    padding: 10px 0 20px 0;
+    color: rgb(39, 39, 39);
+    font-size: 18px;
+    width: 350px;
+}
+
+/* ----------------------------------------------- sight section  ----------------------------------------------------------- */
+.sight{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+    max-width: 1180px;
+    margin: auto
+}
+.mountain, .city-life{
+    background: linear-gradient(rgba(20, 37, 56, 0.73), rgba(0, 0, 0, 0.73)), url(../image/Foods1.jpeg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 550px;
+    height: 250px;
+    border-radius: 10px;
+}
+.mountain h2, .city-life h2{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 50px;
+    
+}
+.city-life{
+    background: linear-gradient(rgba(20, 37, 56, 0.73), rgba(0, 0, 0, 0.73)), url(../image/wine.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* ----------------------------------------------- footer section  ----------------------------------------------------------- */
+
+.footer{
+    margin-top: 3rem;
+    background: linear-gradient(rgba(26, 46, 68, 0.834), rgba(0, 0, 0, 0.851)), url(../image/footer.jpg) center no-repeat;
+    width: 100%;
+    height: 570px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.detile{
+    max-width: 1180px;
+    margin: auto
+}
+.footer-text{
+    color: #FFFFFF;
+}
+.footer-text h2{
+    color: #ffffff;
+    padding-top: 50px;
+    font-size: 44px;
+}
+.footer-text h2 span{
+    font-size: 20px;
+    color: orange ;
+}
+
+.footer-text p {
+    width: 50%;
+    margin: 30px 0;
+}
+
+.mini-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1180px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-menu a{
+    margin-right: 50px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social ion-icon{
+    margin-right: 15px;
+    color: #FFFFFF;
+}
+.social ion-icon:last-child{
+    margin-right: 0px;
+}
+
+
+.footer-line{
+    width: 1180px;
+    margin: auto;
+    height: 2px;
+    background-color: white;
+}
+
+.Copyright{
+    color:white;
+    text-align: center;
+    margin-top: 40px;
+}
