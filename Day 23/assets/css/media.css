@@ -1,0 +1,226 @@
+
+@media (max-width:1085px) {
+    header{
+        max-width: 90% !important;
+        margin-left: 5% !important;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+
+
+    /* ----------------------- hero section  -------------------------- */
+
+
+    .hero{
+        padding-top: 1rem;
+        max-width: 90%;
+        margin-left: 5%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-hero{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+
+    }
+    .text-hero h1{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .text-hero p{
+
+        padding: 15px 0 0 0;
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .button, .statistic{
+        display: none;
+    }
+
+    .main-img{
+        width: 100%;
+    }
+    .buttons-sign{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .button-mobile{
+        display: inline;
+        margin-top: 30px;
+        width: 40%;
+        padding: 20px 0;
+        text-align: center;
+        background-color: #A259FF;
+        border-radius: 20px;
+        font-size: 20px;
+
+    }
+    .statistic-mobile{
+        margin: 20px 0 40px 0;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    /* ----------------------------------  start trending section  --------------------------------- */
+
+    .trend{
+        max-width: 90%;
+        margin-left: 5%;
+    }
+
+    .trend-items{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .top{
+        max-width: 90%;
+        margin-left: 5%;
+    }
+    .top-head{
+        flex-direction: column;
+    }
+    .hide{
+        display: none;
+    }
+
+
+
+/* ----------------------- start categories section  -------------------------- */
+    .categories{
+        max-width: 90%;
+        margin-left: 5%;
+    }
+    .categories-item img{
+        width: 190px;
+        height: auto;
+    }
+    .categories-item{
+        width: 190px;
+        height: auto;
+    }
+
+
+/* ----------------------- start discover section  -------------------------- */
+
+    .doscover{
+        max-width: 90%;
+        margin-left: 5%;
+ 
+    }
+    .Discover-row{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media (max-width:852px){
+    /* ----------------------------------  start top section  --------------------------------- */
+    .top-head p{
+        width: 350px;  
+    }
+    .top-person{
+        width: 330px;
+        height: 100px;
+    }
+    
+    .own-person{
+        display: flex;
+        flex-direction: row;
+        align-items: center;  
+        width: 100%;
+    }
+
+    .own-person img{
+        margin-left: 20px;
+        width: 60px;
+        margin-top: 20px;
+    }
+    .avatar{
+        text-align: left;
+        margin-left: 20px;
+    }
+    
+}
+
+
+@media (max-width:760px){
+    /* ----------------------------------  start trending section  --------------------------------- */
+    .trend-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+}
+@media (max-width:703px){
+    /* ----------------------------------  start top section  --------------------------------- */
+
+    .button-top{
+        margin-top: 20px;
+        position: relative;
+        right: 0;
+        font-size: 19px;
+    }
+
+    .top-person{
+        width: 100%;
+        height: 100px;
+    }
+    .button-top{
+        display: none;
+    }
+    .button-top-hide-show{
+        margin-top: 40px;
+        display: block;
+        font-size: 19px;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #A259FF;
+        border-radius: 20px;
+    }
+    /* ----------------------------------  start categories section  --------------------------------- */
+    .categories-item img{
+        width: 175px;
+        height: auto;
+    }
+    .categories-item{
+        width: 175px;
+        height: auto;
+    }
+}
+
+@media (max-width:400px){
+    /* ----------------------------------  start categories section  --------------------------------- */
+    .categories-item img{
+        width: 160px;
+        height: auto;
+    }
+    .categories-item{
+        width: 160px;
+        height: auto;
+    }
+}

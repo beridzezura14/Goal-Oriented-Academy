@@ -1,0 +1,66 @@
+.sign{
+    background: linear-gradient(rgba(20, 37, 56, 0.696), rgba(0, 0, 0, 0.488)), url(../img/sign-up/Image\ Placeholder.png) center no-repeat;
+    width: 50%;
+    height: 87.4vh;
+    background-size: cover;
+}
+
+.sign-form{
+    display: flex;
+}
+
+.sign-row{
+    position: absolute;
+    background-size: cover;
+    top: 15%;
+    left: 54%;
+}
+.sign-row h1{
+    font-size: 60px;
+}
+.sign-row p{
+    margin: 2rem 0;
+    width: 450px;
+    font-size: 20px;
+}
+.input-icons{
+    position: relative;
+    width: 330px;
+}
+
+
+.input-icons div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.input-icons div ion-icon{
+    font-size: 20px;
+    position: absolute;
+    z-index: 111;
+    color: #A259FF;
+    left: 15px;
+}
+.input-icons input{
+    width: 100%;
+    height: 46px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    color: rgb(57, 57, 57);
+    padding: 0 15px 0 50px;
+}
+
+.creat-acc{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #A259FF;
+    border: none;
+    cursor: pointer;
+}
