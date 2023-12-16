@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    
+    <section class="sign-in">
+        <div class="img-space">
+            <div class="home">
+                <a href="#"><ion-icon name="home-outline"></ion-icon></a>
+                
+            </div>
+            <img src="img/self-confidence.png" alt="">
+        </div>
+        <form class="form">            
+            <div class="form-box">
+                <div class="head">
+                    <h1>Sign-Up</h1>
+                    <p>Please enter your name, surname, password and gender. all of them are important! </p>
+                </div>
+                <div>
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" placeholder="Enter Name" name = "name">                        
+                </div>
+                <div>
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" placeholder="Enter surname" name = "surname">                        
+                </div>                      
+                <div>
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="email" placeholder="Enter Email" required name = "email">
+                </div>
+                <div>
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" placeholder="Enter Password" name = "pass">                              
+                </div>
+                <div class="gender">
+                    <div>
+                        <label for="gender-male">Male</label>
+                        <input id="gender-male" type="radio" value="male" name="gender" required>
+                    </div>
+                    <div>
+                        <label for="gender-female">Female</label>
+                        <input id="gender-female" type="radio" value="female" name="gender"> 
+                    </div>                                              
+                </div>
+                <button class="creat-acc">Create account</button>   
+            </div>
+            <div class="social-icons">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </div>
+                                
+        </form>
+    </section>
+
+</body>
+</html>

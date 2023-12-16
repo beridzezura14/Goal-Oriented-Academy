@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-in{
+    background-color: #974cb8;
+
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-space{
+    background-color: #3b3b3b;
+    height: 450px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+}
+.home ion-icon{
+    position: absolute;
+    color: #f2f2f2;
+    font-size: 20px;
+    top: 30px;
+    left: 30px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b3b3b;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.form{
+    height: 450px;
+    width: 400px;
+    background-color: #ffaa01;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+}
+.form-box{
+    width: 300px;
+}
+.head h1{
+    margin-bottom: 10px;
+    color: #3b3b3b;
+    
+}
+.head p{
+    font-size: 14px;
+    color: #3b3b3b;
+
+}
+
+.form-box div{
+    margin-bottom: 10px;
+}
+
+.form-box ion-icon{
+    position: absolute;
+    color: #3b3b3b;
+    margin-top: 10px;
+    margin-left: 7px
+}
+.form-box input{
+    padding: 10px 0 10px 10%;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    color: #3b3b3b;
+    background-color: #ffd580;
+
+}
+.gender{
+    display: flex;
+    
+}
+.gender div{
+    display: flex;
+    margin-right: 20px;
+    color: #3b3b3b;
+}
+.gender div input{
+    cursor: pointer;
+}
+
+.gender div label{
+    margin-right: 7px;
+}
+.creat-acc{
+    width: 100%;
+    border: none;
+    padding: 7px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #3b3b3b;
+}
+.social-icons{
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+}
+.social-icons ion-icon{
+    margin-left: 7px;
+    font-size: 20px;
+    color: #3b3b3b;
+}
