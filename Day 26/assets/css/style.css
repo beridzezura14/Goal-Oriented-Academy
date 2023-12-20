@@ -20,9 +20,10 @@ audio{
     width: 100%;
     border-radius: 30px;
 }
-video{
+video, iframe{
     border: 2px solid orange;
     border-radius: 30px;
+    
 }
 form{
     margin: 2rem 0 4rem 0;
@@ -50,4 +51,62 @@ textarea{
     height: 80px;
     border-radius: 20px;
     border: 2px solid orange;
+}
+
+.button{
+    padding: 7px 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 30px;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.seletors{
+    margin: 0 0 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.seletors-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select{
+    margin-left: 15px;
+    color: black;
+    height: 40px;
+    width: 90px;
+    border: 1px solid #9e9e9e;
+    border-radius: 30px;
+    box-shadow: 1px 2px 15px 0 rgba(24, 24, 24, 0.06);
+    display: flex;
+    font-size: 14px;
+    padding: 5px 5px;
+    outline: none;
+    text-align: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #28e98c; 
+    border-radius: 0px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white; 
 }
