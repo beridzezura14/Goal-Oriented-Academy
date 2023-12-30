@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+	overflow-x: hidden; /*--right gutter fix--*/
+
+}
+
+.load{
+    animation: slide 2s;
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 20s infinite;  
+}
+.audio{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40%;
+}
+.content{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.principal h1{
+    font-size: 69px;
+    margin-bottom: 20px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+.line {
+    width: 6rem;
+    top:50%;
+    margin:auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter{
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCussor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from{
+        width: 0;
+    }
+    to {
+        width: 10em;
+    }
+}
+.principal p{
+    margin-bottom: 50px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+@keyframes slide{
+    0%{
+        background-image: url('assets/img/ameer-basheer-zPkqmqBZnPA-unsplash.jpg');
+    }
+    20%{
+        background-image: url('assets/img/ameer-basheer-zPkqmqBZnPA-unsplash.jpg');
+    }
+    20.01%{
+        background-image: url('assets/img/ameer-basheer-zPkqmqBZnPA-unsplash.jpg');
+    }
+    40%{
+        background-image: url('assets/img/antonio-gabola-NRF1IQrwwPs-unsplash.jpg');
+    }
+    40.01%{
+        background-image: url('assets/img/antonio-gabola-NRF1IQrwwPs-unsplash.jpg');
+    }
+    60%{
+        background-image: url('assets/img/antonio-gabola-NRF1IQrwwPs-unsplash.jpg');
+    }
+    60.01%{
+        background-image: url('assets/img/ian-schneider-PAykYb-8Er8-unsplash.jpg');
+    }
+    80%{
+        background-image: url('assets/img/ian-schneider-PAykYb-8Er8-unsplash.jpg');
+    }
+    80.01%{
+        background-image: url('assets/img/jireh-foo-UeFpJw5c1Uk-unsplash.jpg');
+    }
+    100%{
+        background-image: url('assets/img/jireh-foo-UeFpJw5c1Uk-unsplash.jpg');
+    }
+    
+}
