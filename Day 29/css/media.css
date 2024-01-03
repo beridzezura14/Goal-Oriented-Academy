@@ -1,0 +1,168 @@
+
+@media(max-width: 1081px){
+
+    .navbar, .tel-icon, .hero-row, .section-practice, .privide, .happy-customer, .rule-word, .paragraph, .footer{
+        max-width: 90%;
+        margin-left: 5%;
+       }
+    .bar{
+        display: block;
+      }
+    
+    .hamburger{
+        display: block;
+      }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+      }
+    .hamburger.active .bar:nth-child(1){
+        transform: rotate(45deg) translateY(11.5px); 
+      }  
+      .hamburger.active .bar:nth-child(3){
+        transform: rotate(-45deg) translateY(-11.5px); 
+      }
+    
+      .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 60px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        transition: 0.3s;
+        border-bottom: 2px solid #B59A6D;
+      }
+    
+      .nav-item{
+        padding: 1.5rem 0;
+      }
+      
+      .nav-menu.active{
+        right: 0;
+      }
+
+      .item:hover .mark{
+        opacity: 0;
+        transition: 0.9s;
+      }
+      .item:hover{
+        transform: scale(1);
+      } 
+
+      .provide-text h3{
+        font-size: 25px;
+      }
+      .provide-image img{
+        width: 220px;
+      }
+      .privide-button{
+        padding: 15px 25px;
+      }
+      /* -----------------  About section ------------------------- */
+
+
+
+    }
+    
+
+    @media(max-width: 830px){
+      .hero-row{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .hero-text h1{
+        font-size: 45px;
+        width: auto;
+      }
+      .hero-text p{
+        width: 90%;
+      }
+
+      .book{
+        background-color: rgb(240, 240, 240);
+        border-radius: 10px;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        z-index: -11;
+      }
+
+
+      .privide{
+        flex-direction: column;
+      }
+      .provide-image img:first-child{
+        margin-right: 0px;
+      }
+      .provide-image img{
+        width: 100%;
+      }
+      
+      .provide-image{
+        width: 99%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+      }
+      .provide-text{
+        padding: 2rem;
+        padding-left: 0px;
+      }
+      .provide-text p{
+        line-height: 25px;
+      }
+      .rule-word h4{
+        font-size: 40px;
+      }
+
+    }
+    @media(max-width: 565px){
+      /* .tel-icon{
+        display: none;
+      } */
+      .icon{
+        display: none;
+      }
+      .tel ion-icon{
+        padding: 10px;
+      }
+      .call a{
+        font-size: 12px;
+      }
+      .call p{
+        display: none;
+      }
+      .items{
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      .footer{
+        flex-direction: column;
+      }
+
+      .footer-menu{
+        margin-top: 2rem;
+      }
+    }
+      
+
+      
+    
+    @media(max-width: 400px){
+      .hero-row{
+        height: 120vh;
+      }
+    }
