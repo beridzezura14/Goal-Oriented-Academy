@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section-1, .section-2, .section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.table-1, .tr-1 th, .tr-1 td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+.tr-1 th, .tr-1 td{
+    padding: 5px 10px;
+}
+.tr-1 th{
+    background-color: rgb(175, 240, 218);
+}
+.tr-1 td:nth-child(1){
+    background-color: lightseagreen;
+}
+.tr-1 td:nth-child(2){
+    background-color: lightcoral;
+}
+.tr-1 td:nth-child(3){
+    background-color: lawngreen;
+}
+.tr-1 td:nth-child(4){
+    background-color: yellow;
+}
+
+/* ---------------------------------- table 2 ---------------------------------- */
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    background-color: darkorange;
+    max-width: 520px;
+    margin: auto
+}
+.section-2 h1{
+    padding: 0 0 20px 0; 
+}
+.table-2, .tr-2 th, .tr-2 td {
+    border: 3px solid darkorange;
+    border-collapse: collapse;
+}
+.tr-2 th, .tr-2 td {
+    padding: 5px 10px;
+}
+.tr-2 th{
+    background-color: aquamarine;
+}
+.tr-2 td{
+    background-color:lightgreen;
+}
+
+
+/*--------------------- table 3 ------------------ */
+
+.section-3{
+    flex-direction: column;
+    height: 320px;
+}
+.section-3 h1{
+    padding: 0 0 20px 0; 
+}
+.table-3, .tr-3 th, .tr-3 td {
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+.tr-3 th, .tr-3 td {
+    padding: 5px 20px;
+}
+.tr-3 th{
+    background-color: rgb(64, 205, 240);
+}
+.tr-3:nth-child(even){
+    background-color: rgb(170, 204, 202);
+}
+.tr-3:nth-child(odd){
+    background-color: rgb(211, 228, 227);
+}
+
+/*--------------------- table 4 ------------------ */
+.section-4{
+    background: linear-gradient(240deg, #4F879B, #C25431);
+    padding: 4rem 0;
+}
+.div-4{
+    max-width: 720px;
+    margin: auto;
+    background: linear-gradient(270deg, #27b96493, #27b964);
+    padding: 20px;
+    border-radius: 10px;
+}
+.div-4 h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.table-4{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    padding-bottom: 30px;
+}
+
+.tr-4 th, .tr-4 td {
+    border-bottom: 1px solid rgba(250, 250, 250, 0.37);
+    border-collapse: collapse;
+    color: white;
+    padding: 8px 50px 8px 3px;
+}
+
