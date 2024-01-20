@@ -1,0 +1,123 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-table{
+    width: 700px;
+    margin: auto;
+
+    padding: 50px 0; 
+    background: linear-gradient(200deg, purple, lightblue);
+    background-color: blueviolet;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.table-head{
+    text-align: center;
+    color: white;
+}
+.table-1{
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+}
+.table-1, .tr1 th, .tr1 td{
+    border-collapse: collapse;
+}
+.tr1 th, .tr1 td{
+    padding: 5px 20px;
+}
+.tr1 th{
+    background-color: aqua;
+}
+
+.tr1 td{
+    background-color: aquamarine;
+}
+.tr1:nth-child(even){
+    background-color: blueviolet;
+}
+.tr1:nth-child(odd){
+    background-color: lightseagreen;
+}
+.tr1 td:nth-child(2){
+    color: red;
+}
+.tr1 td:nth-child(3){
+    color: yellow;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-card{
+    background-color: blueviolet;
+    padding: 50px 0;
+    
+}
+.card{
+    width: 320px;
+    margin: auto;
+    border: 1px solid grey;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px yellow;
+}
+.card:hover{
+    box-shadow: 3px 3px 10px orange;
+}
+.card img{
+    width: 100%;
+}
+
+.card h3{
+    background-color: lightseagreen;
+    padding: 2px 5px;
+    color: white;
+}
+
+.card h1{
+    font-size: 40px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #3b3b3b;
+}
+
+.card p{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.link{
+    margin: 20px 0;
+}
+.link a{
+    padding: 5px 25px;
+    border: 2px solid lightseagreen;
+    color: black;
+    border-radius: 10px;
+}
+/* 
+.section-list{
+    margin: 50px;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-position: outside;
+    list-style-image: url(img/boy.png);
+
+    list-style-type: lower-roman;
+}
+ul li{
+    margin-top: 5px;
+    text-align: center;
+} */
+
