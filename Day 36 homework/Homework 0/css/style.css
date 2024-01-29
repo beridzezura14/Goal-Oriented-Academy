@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: inside;
+}
+
+section{
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+h1{
+    margin-top: 20px;
+    color: #3b3b3b;
+    font-size: 35px;
+}
+.p-1{
+    margin-top: 20px;
+    color: #3b3b3b;
+    font-size: 12px;
+    line-height: 20px;
+}
+.preperation{
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgba(255, 182, 193, 0.123);
+    padding: 20px;
+    line-height: 29px;
+}
+.preperation h2{
+    font-size: 20px;
+    color: rgb(128, 16, 49);
+}
+.preperation ul{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.preperation ul li {
+    font-size: 13px;
+    color: #3b3b3b;
+}
+.ingradients{
+    margin-top: 25px;
+    border-bottom: 0.5px solid #57575780;
+    padding-bottom: 20px;
+}
+.ingradients ul{
+    line-height: 30px;
+    margin-top: 15px;
+}
+.ingradients h3, .instruction h4, .nutrition h5{
+    color: brown;
+    font-size: 26px;
+}
+.ingradients ul li{
+    color: #575757;
+}
+
+.instruction{
+    padding: 20px 0;
+    border-bottom: 0.5px solid #57575780;
+}
+.instruction ol li{
+    margin-top: 10px;
+    margin-left: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #575757;
+}
+
+    ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+   }
+
+    ol li:before {
+    color: brown;
+    content: counter(list) ".";
+    left: -37px;
+    position: absolute;
+    text-align: right;
+    font-size: 15px;
+    width: 26px;
+    font-weight: bolder;
+   }
+
+.nutrition{
+    padding: 20px 0;
+}
+
+.nutrition-p{
+    font-size: 13px;
+    padding-top: 20px;
+    color: #575757;
+}
+.statistic{
+    margin-top: 20px;
+}
+
+.statistic div{
+    display: flex;
+    border-bottom: 0.5px solid #57575750;
+    padding: 10px 0;
+}
+.statistic div p:first-child{
+    width: 80px;
+    color: #575757;
+    margin-left: 30px;
+}
+.statistic div p:last-child{
+    margin-left: 40%;
+    color: brown;
+    font-weight: bolder;
+}
