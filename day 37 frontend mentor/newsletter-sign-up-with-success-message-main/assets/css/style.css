@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: hsl(235, 18%, 26%);
+}
+
+
+.container{
+    height: 100vh;
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #content-row{
+    display: none;
+} */
+.send{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 20px 20px 40px;
+    transition: .5s;
+}
+.side-one{
+    width: 300px;
+}
+.side-one h1{
+    font-size: 45px;
+}
+.side-one p{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.list-items{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.list-items p{
+    margin-left: 15px;
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.bg{
+    width: 250px;
+}
+.form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.email-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+  /* Style for invalid email format */
+  .invalid {
+    color: red;
+  }
+  /* Style for invalid input */
+  #output.invalid {
+    margin-top: 0;
+    border-color: red;
+  }
+.form label{
+    font-size: 14px;
+    font-weight: 700;
+}
+.form input{
+    height: 35px;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin: 5px 0 15px 0;
+    outline: none;
+    border: 1px solid hsla(235, 18%, 26%, 0.564);
+}
+.btn{
+    height: 40px;
+    border: none;
+    background-color: hsl(235, 18%, 26%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: hsl(4, 100%, 67%);        
+}
+
+/* start sent section */
+
+#sent{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 30px;
+    display: none;
+    width: 300px;
+    margin: auto;
+}
+#sent img{
+    width: 40px;
+}
+#sent h2{
+    margin-top: 20px;
+    font-size: 35px;
+}
+#sent p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.btn-dis{
+    width: 100%;
+    margin-top: 20px;
+}
