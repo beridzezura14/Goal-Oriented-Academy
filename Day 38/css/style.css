@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    position: relative;
+}
+nav{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 111;
+    position: relative;
+}
+nav ul{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+nav ul a{
+    font-size: 20px;
+    color: white;
+    
+
+}
+.images-row{
+    /* height: 48vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 11
+}
+.nature{
+    position: absolute;
+    font-size: 200px;
+    letter-spacing: 20px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    z-index: 1;
+    /* text-shadow: 0 0 5px black; */
+    background: linear-gradient(rgba(50, 78, 69, 0.459), rgba(1, 109, 84, 0.616)), url(../img/green-mountains-and-pine-trees-nature-cyweppgbcc38du5m.jpg) center no-repeat;
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    top: 12%;
+    animation: text 6.5s ease-in;
+    /* opacity: 1;
+	animation: 7s fadeInOpacity ease-in;
+	animation-iteration-count: 1; */
+
+}
+@keyframes text{
+    from{top: -800px;}
+    to{top: 12%;}
+}
+
+/* @keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+} */
+.img-1{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    animation: img-1 2.5s ease-in;
+    overflow: hidden;
+
+    z-index: 111;
+}
+@keyframes img-1{
+    from{bottom: -300px;}
+    to{bottom: 0px;}
+}
+.img-2{
+    position: absolute;
+    width: 50%;
+    bottom: 8%;
+    right: 0;
+    animation: img-2 3s ease-in;
+    overflow: hidden;
+    z-index: 111;
+}
+
+.img-3{
+    position: absolute;
+    width: 50%;
+    bottom: 8%;
+    left: 0;
+    animation: img-2 4s ease-in;
+    overflow: hidden;
+    z-index: 111;
+}
+@keyframes img-2{
+    from{bottom: -500px;}
+    to{bottom: 8%}
+}
+.img-4{
+    position: absolute;
+    width: 80%;
+    bottom: 8%;
+    right: 0;
+    animation: img-3 5s ease-in;
+    overflow: hidden;
+    z-index: 111;
+}
+@keyframes img-3{
+    from{bottom: -600px;}
+    to{bottom: 8%;}
+}
+.img-5{
+    position: absolute;
+    width: 50%;
+    bottom: 33%;
+    left: 0;
+    animation: img-4 5.8s ease-in;
+    overflow: hidden;
+}
+@keyframes img-4{
+    from{bottom: -600px;}
+    to{bottom: 33%;}
+}
+
+.img-6{
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+    animation: img-6 6.5s ease-in;
+    overflow: hidden;
+}
+@keyframes img-6{
+    from{bottom: -800px;}
+    to{bottom: 20%;}
+}
+
+.img-7{
+    position: absolute;
+    width: 30%;
+    top: 0;
+    right: 0;
+    animation: img-7 6.5s ease-in;
+    overflow: hidden;
+    z-index: 1111;
+}
+@keyframes img-7{
+    from{top: -800px;}
+    to{top: 0;}
+}
+.img-8{
+    position: absolute;
+    width: 30%;
+    top: -14%;
+    left: -10%;
+    animation: img-8 6.5s ease-in;
+    overflow: hidden;
+    z-index: 1111;
+}
+@keyframes img-8{
+    from{top: -800px;}
+    to{top: -14%;}
+}
+.pp{
+    background-color: white;
+    z-index: 11111;
+    position: relative;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    border-radius: 0px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(1, 109, 84, 0.616); 
+    border-radius: 0px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white; 
+}
