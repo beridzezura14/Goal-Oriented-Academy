@@ -1,0 +1,86 @@
+@media (max-width: 1100px){
+    .navbar, .hero-container, .about, .section-projects{
+        max-width: 90%;
+    }
+    .all-projects{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        top: 0px;
+        width: 100%;
+    }
+    .project img{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1000px){
+    /* .nav-div{
+        position: relative;
+    } */
+    .navbar ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding-right: 50px;
+        transition: .6s;
+        position: absolute;
+        width: 100%;
+        background-color: black;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        display: none;
+        /* animation: open 1.5s ease-in; */
+    }
+
+    /* @keyframes open{
+        from{right: -10000px;}
+        to{right: 0;}
+    } */
+    .open{
+        display: block;
+        font-size: 40px;
+    }
+    .hero p{
+        width: 100%;
+    }
+
+    /* ----------------  start about section */
+
+    .about-container{
+        gap: 20px;
+    }
+    .about-text h3{
+        font-size: 40px;
+    }
+    .numbers{
+        gap: 20px;
+    }
+    .numbers div p:nth-child(1){
+        font-size: 35px;
+    }
+
+    .project-head-text h3{
+        font-size: 50px;
+        width: 100%;
+        margin-top: 3rem;
+    }
+}
+
+@media(max-width: 840px){
+    .about-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .name-line{
+        width: 50px;
+
+    }
+    .about-container img{
+        width: 100%;
+    }
+}
