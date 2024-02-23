@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-absolute{
+    height: 40vh;
+    position: absolute;
+    width: 100%;
+    background-color: greenyellow;
+    z-index: -1;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    padding: 2rem 0;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  repeat(6, 1fr);
+    gap: 10px;
+    z-index: 1;
+}
+
+.item1{
+    background: url(../img/photo-1544979590-37e9b47eb705.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    grid-row: 1 / 5;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+
+.item2{
+    background: url(../img/portrait-lion-lying-ground_181624-9055.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    grid-row: 2 / 6;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+.item3{
+    background: url(../img/tiger-looking-with-open-mouth_1150-18083.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    grid-row: 3 / 7;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+
+.item-corner-1{
+    grid-column: 3/4;
+    border-top: 5px solid #3b3b3b;
+
+    display: flex;
+    justify-content: end;
+    padding: 20px 0;
+
+
+} 
+
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li a{
+    color: #3b3b3b;
+    font-size: 18px;
+}
+
+.item-corner-2{
+    grid-column: 1/2;
+    grid-row: 7/8;
+    border-bottom: 5px solid #3b3b3b;
+}
+.item-corner-3{
+    grid-row: 6/7;
+    grid-column: 2/3;
+    /* border-bottom: 3px solid #1b1b1b; */
+    transition: .7s;
+    background-color: #3b3b3bb1;
+    padding: 20px 10px;
+    color: white;
+    opacity: 0;
+    line-height: 23px;
+}
+
+.item-corner-4{
+    grid-row: 7/8;
+    grid-column: 3/4;
+    /* border-bottom: 3px solid #1b1b1b;*/   
+    transition: .7s;
+    background-color: #3b3b3bb1; 
+    padding: 20px 10px;
+    color: white;
+    opacity: 0;
+    line-height: 23px;
+}
+
+.item-corner-5{
+    grid-row: 5/6;
+    grid-column: 1/2;
+    /* border-bottom: 3px solid #1b1b1b; */
+    transition: .7s;
+    background-color: #3b3b3bb1;
+    padding: 20px 10px;
+    color: white;
+    opacity: 0;
+    line-height: 23px;
+}
+
+.item1:hover .item-corner-3{
+    opacity: 1 !important;
+}
+.item2:hover .item-corner-4{
+    opacity: 1 !important;
+}
+.item3:hover .item-corner-5{
+    opacity: 1 !important;
+}
+
+h1{
+    color: white;
+    margin-bottom: 10px;
+}
