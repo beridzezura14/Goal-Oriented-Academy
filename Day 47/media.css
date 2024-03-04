@@ -1,0 +1,16 @@
+@media (min-width: 1100px) {
+  .menu-list {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    width: auto;
+    height: auto !important;
+  }
+  .open-icon,
+  .close-icon {
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+}
